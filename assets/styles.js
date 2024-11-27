@@ -94,4 +94,21 @@ export const globalStyle = StyleSheet.create({
     color: "#fff",
     fontSize: 12,
   },
+  question: {
+    fontSize: 20,
+    marginBottom: 16,
+  },
+  option: {
+    backgroundColor: "#f0f0f0",
+    padding: 12,
+    borderRadius: 8,
+    marginBottom: 10,
+  },
+  optionText: {
+    fontSize: 16,
+  },
+  score: {
+    fontSize: 18,
+    marginBottom: 16,
+  },
 });
