@@ -1,0 +1,72 @@
+upwork v Aka Application
+
+Project Overview:
+
+This project is a simple project built with React Native and Expo. It allows users to add, toggle completion, and delete tasks. The application is styled with custom styles and uses Redux Toolkit for state management.
+
+Key Features:
+
+	•	Add Tasks: Users can add new tasks with due dates.
+	•	Mark Tasks as Complete: Users can mark tasks as completed.
+	•	Delete Tasks: Users can delete tasks from the list.
+	•	Responsive Design: The UI adapts to different screen sizes.
+
+Technologies Used:
+
+	•	React Native (Version: 0.70.0)
+	•	Expo SDK (Version: 52)
+	•	Redux Toolkit for state management
+	•	React Navigation for navigation
+	•	React Native Paper for UI components
+
+2. Project Setup
+
+Provide instructions on how to set up the project locally. This section is important for anyone who wants to contribute or run the project.
+
+Example:
+
+Getting Started
+
+To get started with the project, follow these steps:
+
+3- Prerequisites:
+
+	•	Install Node.js (version 22.11.0 )
+	•	Install Expo CLI globally (if you don’t have it already):
+        > npm install -g expo-cli
+4- Clone the Repository:
+
+Clone the project repository to your local machine:
+    git clone [upwork-V-Aka](https://github.com/Ssoliman2018/upwork-V-Aka)
+    cd upwork-V-Aka
+
+4- Install Dependencies:
+
+Navigate to the project folder and install the required dependencies:
+
+> yarn install
+
+5- Start the application
+> npx expo start
+
+____________________
+Folder Structure:
+
+The folder structure for this project is as follows:
+src/
+  components/        # Contains the UI components such as Header.js
+  redux/             # Redux Toolkit slice and store setup (appSlice.js)
+  styles/            # Global styling for the app (styles.js)
+  App.js             # Main entry point of the app
+
+  	•	components/: This folder contains all the React components used to render UI elements like header and footer.
+	•	redux/: Contains the Redux state slice (appSlice.js) and setup for state management.
+	•	styles/: Contains the global styling used across the application.
+	•	App.js: This is the main entry point for the app.
+
+
+6. Styling
+
+Explain how you styled the application, particularly with the styles.js file. You can also mention any UI libraries or custom themes used.
+
+
